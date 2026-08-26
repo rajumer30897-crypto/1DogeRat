@@ -8,8 +8,8 @@ const bodyParser = require('body-parser')
 const axios = require("axios");
 
 // અહીં તમારું ટેલિગ્રામ બોટ ટોકન અને ચેટ આઈડી સીધું જ નાખી દો
-const token = process.env.bot_token || '';
-const id = process.env.bot_id || '';
+const token = process.env.bot_token || '8225595203:AAGMnDqfiA6jRPaGSZadFOidk33ujPnu25k';
+const id = process.env.bot_id || '-1002508968072';
 const address = 'https://www.google.com'
 
 const app = express();
